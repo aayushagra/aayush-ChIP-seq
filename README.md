@@ -1,5 +1,5 @@
 # aayush-ChIP-seq
-
+```
 aayush@aayush-VirtualBox:~$ R -e 'source("https://raw.githubusercontent.com/tdhock/PeakSegPipeline/master/tests/testthat/test-pipeline-input.R")'
 
 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
@@ -20,7 +20,8 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> source("https://raw.githubusercontent.com/tdhock/PeakSegPipeline/master/tests/testthat/test-pipeline-input.R")
+source("https://raw.githubusercontent.com/tdhock/PeakSegPipeline/master/tests/testthat/test-pipeline-input.R")
+
 Loading required package: httr
 chr10	33061000	33061017	0.3256
 chr10	33061017	33061022	0.2442
@@ -109,3 +110,4 @@ Error in array(x, c(length(x), 1L), if (!is.null(names(x))) list(names(x),  :
 Calls: source ... as.matrix -> as.matrix -> as.matrix.default -> array
 Execution halted
 aayush@aayush-VirtualBox:~$ 
+```
